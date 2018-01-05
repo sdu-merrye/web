@@ -1,4 +1,5 @@
 var http = require('http');
+<<<<<<< HEAD
 var fs = require('fs');
 var documentRoot = 'D:/workspace/web';
 
@@ -35,3 +36,4 @@ var server = http.createServer(function(req,res){
 }).listen(8888);
 
 console.log('服务器开启成功');
+ 
