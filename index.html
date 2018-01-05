@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- 引入 WeUI -->
+
+<title>无标题文档</title>
+<link href="../node_modules/weui/dist/style/weui.min.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="http://cdn.bootcss.com/weui/0.4.3/style/weui.min.css">
+<link rel="stylesheet" href="http://cdn.bootcss.com/jquery-weui/0.8.0/css/jquery-weui.min.css">
+<link rel="stylesheet" href="http://ps-story.oss-cn-qingdao.aliyuncs.com/swiper/swiper-3.3.1.min.css">
+<!--swiper滚动插件-->
+<link rel="stylesheet" href="css/iconfont.css">
+<!--引用阿里云矢量图标-->
+<link rel="stylesheet" href="css/index.css">
+<!--index.html的css-->
+
+</head>
+
+<body ontouchstart>
+<div class="has-max">
+<!-----------------------滚动图-------------------------->
+<div class="swiper-container swiper-container1">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="icon/image/1.jpg" /></div>
+    <div class="swiper-slide"><img src="icon/image/2.jpg" /></div>
+    <div class="swiper-slide"><img src="icon/image/3.jpg" /></div>
+  </div>
+  <!--如果需要分页器-->
+  <div class="swiper-pagination swiper-pagination1"></div>
+</div>
+
+<!----------------------九宫格分类----------------------->
+<div class="swiper-container swiper-container2">
+<div class="swiper-wrapper"> 
+  <!--分类一栏-->
+  <div class="swiper-slide">
+    <div class="weui_grids"> <a href="" class="weui_grid js_grid">
+      <div class="weui_grid_icon classify-icon"> <i class="iconfont icon-shouye"></i> </div>
+      <p class="weui_grid_label classify-name"> 企业简介 </p>
+      </a> <a href="" class="weui_grid js_grid">
+      <div class="weui_grid_icon classify-icon"> <i class="iconfont icon-gouwuche1"></i> </div>
+      <p class="weui_grid_label classify-name"> 优惠 </p>
+      </a> <a href="" class="weui_grid js_grid">
+      <div class="weui_grid_icon classify-icon"> <i class="iconfont icon-julebu"></i> </div>
+      <p class="weui_grid_label classify-name"> 俱乐部 </p>
+      </a><a href="" class="weui_grid js_grid">
+      <div class="weui_grid_icon classify-icon"> <i class="iconfont icon-julebu"></i> </div>
+      <p class="weui_grid_label classify-name"> 俱乐部 </p>
+      </a>
+    </div>
+  </div>
+  <!--分类一栏结束-->
+  
+  <!-- 如果需要分页器 -->
+   <div class="swiper-pagination swiper-pagination2"></div> 
+</div>
+</div>
+
+<!-------------------------产品列表------------------------------------->
+<div class="weui-row" style="margin-bottom: 75px;">
+	<div class="weui-col-50 product-list-border">
+    	<a href="">
+        	<img src="icon/image/mmexport1514689121001.jpeg" />
+            <p class="product-name">滴翠系列</p>
+    	</a>
+   	</div>
+    <div class="weui-col-50 product-list-border">
+    	<a href="">
+        	<img src="icon/image/mmexport1514689121001.jpeg" />
+            <p class="product-name">滴翠系列</p>
+    	</a>
+   	</div>
+    <div class="weui-col-50 product-list-border">
+    	<a href="">
+        	<img src="icon/image/mmexport1514689121001.jpeg" />
+            <p class="product-name">滴翠系列</p>
+    	</a>
+   	</div>
+    <div class="weui-col-50 product-list-border">
+    	<a href="">
+        	<img src="icon/image/mmexport1514689121001.jpeg" />
+            <p class="product-name">滴翠系列</p>
+    	</a>
+   	</div>
+</div>
+
+<!--------------------------底部菜单栏----------------------->
+<div class="weui_tabbar footer-menu">
+	<a href="" class="weui_tabbar_item weui_bar_item_on">
+    	<div class="weui_tabbar_icon">
+        	<i class="iconfont icon-shouye"></i>
+        </div>
+        <p class="weui_tabbar_label footer-menu-icon">首页</p>
+    </a>
+    <a href="" class="weui_tabbar_item weui_bar_item_on">
+    	<div class="weui_tabbar_icon">
+        	<i class="iconfont icon-gouwuche1"></i>
+        </div>
+        <p class="weui_tabbar_label footer-menu-icon">购物车</p>
+    </a>
+</div>
+
+<!----------------------------------------------------------------------->
+</div>
+
+</body>
+</html>
